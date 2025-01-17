@@ -7,12 +7,22 @@
 }
 
 .button {
+    background-color: #0066CC;
+    color: white;
+    width: 120px;
+    height: 40px;
+    top: 432px;
+    left: 1090px;
+    gap: 0;
+    border-radius: 20px;
+    border-color: white;
 
 }
 
 .button:hover {
 
 }
+
 .button:active {
 
 }
