@@ -3,9 +3,17 @@
 }
 
 .hw {
-
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .hwTitle {
 
 }
+
+.messageField {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
