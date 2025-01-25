@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/hmwrks2/static/css/main.aa283291.css",
+    "main.js": "/hmwrks2/static/js/main.75fe98cb.js",
+    "static/js/787.66cb4309.chunk.js": "/hmwrks2/static/js/787.66cb4309.chunk.js",
+    "static/media/konuhov.png": "/hmwrks2/static/media/konuhov.be18986533d010688290.png",
+    "static/media/avatar.png": "/hmwrks2/static/media/avatar.d947cb9d0d13765666b6.png",
+    "index.html": "/hmwrks2/index.html",
+    "main.aa283291.css.map": "/hmwrks2/static/css/main.aa283291.css.map",
+    "main.75fe98cb.js.map": "/hmwrks2/static/js/main.75fe98cb.js.map",
+    "787.66cb4309.chunk.js.map": "/hmwrks2/static/js/787.66cb4309.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa283291.css",
+    "static/js/main.75fe98cb.js"
+  ]
+}
