@@ -4,6 +4,7 @@ import MessageSender from './message-sender/MessageSender'
 import s2 from '../../s1-main/App.module.css'
 import FriendMessage from './friend-message/FriendMessage'
 import avatar from './avatar.png'
+import konuhov from './konuhov.png'
 
 /*
 
@@ -34,11 +35,11 @@ export type TextType = {
 export const message0: MessageType = {
     id: 0,
     user: {
-        avatar: avatar, // можно менять
+        avatar: konuhov, // можно менять
         name: 'Фёдор Конюхов',  // можно менять
     },
     message: {
-        text: 'Собираюсь отправить в кругосветное путешествие по телефонным проводам на велосипеде', // можно менять
+        text: 'Собираюсь отправиться в кругосветное путешествие по высоковольтным проводам на велосипеде!', // можно менять
         time: '22:00', // можно менять
     },
 }
@@ -46,11 +47,11 @@ export const friendMessage0: MessageType = {
     id: 100,
     user: {
         avatar: avatar, // можно менять
-        name: 'Егор Крид', // можно менять
+        name: 'Бред Пита', // можно менять
     },
     message: {
-        text: 'Здрасьте, хотел у вас спросить почём рыбы?', // можно менять
-        time: '22:00', // можно менять
+        text: 'Ты нормальный ваще, не?', // можно менять
+        time: '22:02', // можно менять
     },
 }
 
@@ -60,7 +61,7 @@ const HW1 = () => {
             <div className={s2.hwTitle}>Homework #1</div>
             <div className={s2.hw}>
                 {/*проверка отображения (не менять)*/}
-                <div>
+                <div className={s2.messageField}>
                     <Message message={message0}/>
                     <FriendMessage message={friendMessage0}/>
                 </div>
