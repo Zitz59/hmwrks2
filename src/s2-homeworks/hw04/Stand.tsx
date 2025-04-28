@@ -4,11 +4,15 @@ import SuperInputText from './common/c1-SuperInputText/SuperInputText'
 import SuperCheckbox from './common/c3-SuperCheckbox/SuperCheckbox'
 import SuperButton from './common/c2-SuperButton/SuperButton'
 
+// * 3 - дописать onChangeCallback в SuperCheckbox.tsx чтоб оба чекбокса работали на стенде
+
 const Stand = () => {
     const [stateForAllInputs, setValue] = useState<string>('')
     const [error, setError] = useState<string>('')
 
-    const [stateForAllCheckboxes, setChecked] = useState<boolean>(false)
+    const [checkedOne,setCheckedOne] = useState<boolean>(false)
+    const [checkedTwo,setCheckedTwo] = useState<boolean>(false)
+
 
     return (
         <div id={'hw4-stand'} className={s.stand}>
@@ -79,8 +83,8 @@ const Stand = () => {
                 <div>
                     <SuperCheckbox
                         id={'hw4-super-checkbox-with-text'}
-                        checked={stateForAllCheckboxes}
-                        onChangeChecked={setChecked}
+                        checked={checkedOne}
+                        onChangeChecked={setCheckedOne}
                     >
                         some text
                     </SuperCheckbox>
@@ -89,8 +93,8 @@ const Stand = () => {
                 <div>
                     <SuperCheckbox
                         id={'hw4-super-checkbox-like-old'}
-                        checked={stateForAllCheckboxes}
-                        onChange={(e) => setChecked(e.currentTarget.checked)}
+                        checked={checkedTwo}
+                        onChangeChecked={setCheckedTwo}
                     />
                 </div>
             </div>
