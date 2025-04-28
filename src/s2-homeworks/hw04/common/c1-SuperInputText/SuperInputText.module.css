@@ -2,6 +2,15 @@
 }
 
 .input {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    padding: 10px;
+    resize: none;
+    overflow: hidden;
+    font-size: 16px;
+    outline: none;
 }
 
 .inputWrapper {
@@ -11,10 +20,16 @@
 }
 
 .errorInput {
+    border: 1px solid #cc0000;
 }
 
 .errorInput:focus {
+
 }
 
 .error {
+    display: flex;
+    justify-content: flex-start;
+    color: #cc0000;
+    font-size: 12px;
 }
