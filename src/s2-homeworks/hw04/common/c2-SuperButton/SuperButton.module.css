@@ -12,11 +12,13 @@
 
 .secondary {
     background-color: #ffffff;
-    border: 1px solid #0066CC;
+    border: 2px solid #3098FF;
+    color: #3098FF;
 }
 
 .default {
     background-color: #0066CC;
+    color: #ffffff;
 }
 
 .red {
