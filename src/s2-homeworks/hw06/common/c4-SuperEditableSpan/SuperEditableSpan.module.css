@@ -1,11 +1,15 @@
 .spanBlock {
+    display: flex;
+    gap: 0.7rem;
 }
 
 .span {
+    color: #3098FF;
 }
 
 .input {
 }
 
 .pen {
+
 }
